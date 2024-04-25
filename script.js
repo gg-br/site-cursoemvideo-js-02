@@ -50,22 +50,22 @@ function verificar ()
 
             if (idade >=0 && idade < 10)
             {
-                //kid
+                img.setAttribute('src', 'imagens/mbebe.jpg')
             }
 
             else if (idade <21)
             {
-                //jovem
+                img.setAttribute('src', 'imagens/mjovem.jpg')
             }
 
             else if (idade <50)
             {
-                //adulto
+                img.setAttribute('src', 'imagens/m.jpg')
             }
 
             else
             {
-                //idoso
+                img.setAttribute('src', 'imagens/mvelho.jpg')
             }     
         }
         
