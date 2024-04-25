@@ -3,4 +3,21 @@
 body
 {
     background-color: rgb(34, 119, 199);
+    font: normal 15pt Arial;
+}
+
+header
+{
+    color: white;
+    text-align: center;
+}
+
+section
+{
+    background: white; 
+    padding: 15px;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.253);
+    margin: auto;
 }
